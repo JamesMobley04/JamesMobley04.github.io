@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>James's Mildly Adequate Website</title>
+     <style>
+            body {
+                background: rgb(3, 29, 193);
+                color: rgb(45, 45, 45);
+                padding: 20px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+                color:#fff
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(202, 65, 243);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(202, 65, 243);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(202, 65, 243);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+                color:#fff
+            }
+            ul{
+                color:#fff
+            }
+            h1{
+                color:#fff
+            }
+            p{
+                color:#fff
+            }
+     </style>
+</head>
+<body>
+    <div id="all-contents">
+        <nav>
+       <h1>James's Mildly Adequate Website</h1>
+      <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+        </nav>
+   
+<main>
+    <div class="sidebar">
+        <img src=data:image/jpeg;base64,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>
+    </div>
+    <div class="content">
+        <h1>James Mobley</h1>
+        <p>Student at PRHS</p>
+    </div>
+    <section class="interests">
+        <header>Interests</header>
+            <ul>
+                <li>Video Games</li>
+                <li>Content Creation</li>
+                <li>Chess</li>
+            </ul>
+    </section>
+</main>
+</div> 
+</body>
+</html>
